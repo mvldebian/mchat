@@ -121,9 +121,9 @@ $lang = array_merge($lang, array(
 	'MCHAT_WHOIS_REFRESH'							=> 'Intervalo de atualização do quem está conversando',
 	'MCHAT_WHOIS_REFRESH_EXPLAIN'					=> 'Número de segundos antes do quem está conversando atualizar.<br /><em>Você está limitado de 10 a 300 segundos. O padrão é 60.</em>',
 	'MCHAT_SOUND'									=> 'Reproduzir sons para mensagens novas, editadas e deletadas',
-	'MCHAT_PURGE'									=> 'Delete todas as mensagens agora',
-	'MCHAT_PURGE_CONFIRM'							=> 'Confirme a exclusão de todas as mensagens',
-	'MCHAT_PURGED'									=> 'Todas as mensagens do mChat foram deletadas com sucesso',
+	'MCHAT_PURGE'									=> 'Limpar todas as mensagens agora',
+	'MCHAT_PURGE_CONFIRM'							=> 'Confirmar a limpeza de todas as mensagens',
+	'MCHAT_PURGED'									=> 'Todas as mensagens do mChat foram limpadas com sucesso',
 
 	// '%1$s' contains 'Retain posts' and 'Delete posts' respectively
 	'MCHAT_RETAIN_MESSAGES'							=> '%1$s e retem mensagens do mChat',
