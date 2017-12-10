@@ -44,7 +44,7 @@ $lang = array_merge($lang, array(
 	'MCHAT_SETTINGS_PRUNE'							=> 'Configurações de limpeza (ajustável apenas para fundadores)',
 	'MCHAT_SETTINGS_STATS'							=> 'Configurações de Quem está conversando',
 
-	'MCHAT_GLOBALUSERSETTINGS_EXPLAIN'				=> 'As configurações para as quais um usuário <strong>não</strong> tem permissão para personalizar são aplicadas conforme configurado abaixo.<br /> Novas contas de usuário terão as configurações iniciais conforme configurado abaixo.<br /><br /> Vá para o mChat na guia UCP da seção de permissões do usuário para ajustar as permissões de personalização. Vá para Preferencesform na seção de gerenciamento de usuários para ver o status das configurações de cada usuário.',
+	'MCHAT_GLOBALUSERSETTINGS_EXPLAIN'				=> 'As configurações para as quais um usuário <strong>não</strong> tem permissão para personalizar são aplicadas conforme configurado abaixo.<br /> Novas contas de usuário terão as configurações iniciais conforme configurado abaixo.<br /><br /> Vá para a aba <em>mChat em UCP</em> da seção de permissões do usuário para ajustar as permissões de personalização.<br /> Vá para o formulário <em>Preferências</em> na seção de <em>gerenciamento de usuários</em> para ver o status das configurações de cada usuário.',
 	'MCHAT_GLOBALUSERSETTINGS_OVERWRITE'			=> 'Substituir configurações para todos os usuários',
 	'MCHAT_GLOBALUSERSETTINGS_OVERWRITE_EXPLAIN'	=> 'Aplica as configurações conforme definido acima para <em>todas</em> as contas de usuário.',
 	'MCHAT_GLOBALUSERSETTINGS_OVERWRITE_CONFIRM'	=> 'Confirme a substituição das configurações mChat para todos os usuários',
