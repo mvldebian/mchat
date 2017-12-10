@@ -37,14 +37,14 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, array(
 	// ACP Configuration sections
 	'MCHAT_SETTINGS_INDEX'							=> 'Configurações da página ínicial',
-	'MCHAT_SETTINGS_CUSTOM'							=> 'Configurações das páginas personalizadas',
+	'MCHAT_SETTINGS_CUSTOM'							=> 'Configurações da página personalizada',
 	'MCHAT_SETTINGS_ARCHIVE'						=> 'Configurações da página de arquivo',
 	'MCHAT_SETTINGS_POSTS'							=> 'Configurações de novas postagens',
 	'MCHAT_SETTINGS_MESSAGES'						=> 'Configurações de mensagem',
-	'MCHAT_SETTINGS_PRUNE'							=> 'Configurações de pruning (ajustável apenas para fundadores)',
+	'MCHAT_SETTINGS_PRUNE'							=> 'Configurações de limpeza (ajustável apenas para fundadores)',
 	'MCHAT_SETTINGS_STATS'							=> 'Configurações de Quem está conversando',
 
-	'MCHAT_GLOBALUSERSETTINGS_EXPLAIN'				=> 'As configurações para as quais um usuário faz <strong>não</strong> têm permissão para personalizar são aplicadas conforme configurado abaixo.<br /> As novas contas de usuário terão as configurações iniciais conforme configurado abaixo.<br /><br /> Vá para o <em>mChat na UCP</em> da seção de permissões do usuário para ajustar as permissões de personalização.<br /> Vá para o formulário <em>Preferências</em> na seção <em>gerenciamento de usuários</em> para ver o status das configurações de cada usuário.',
+	'MCHAT_GLOBALUSERSETTINGS_EXPLAIN'				=> 'As configurações para as quais um usuário <strong>não</strong> tem permissão para personalizar são aplicadas conforme configurado abaixo.<br /> Novas contas de usuário terão as configurações iniciais conforme configurado abaixo.<br /><br /> Vá para o mChat na guia UCP da seção de permissões do usuário para ajustar as permissões de personalização. Vá para Preferencesform na seção de gerenciamento de usuários para ver o status das configurações de cada usuário.',
 	'MCHAT_GLOBALUSERSETTINGS_OVERWRITE'			=> 'Substituir configurações para todos os usuários',
 	'MCHAT_GLOBALUSERSETTINGS_OVERWRITE_EXPLAIN'	=> 'Aplica as configurações conforme definido acima para <em>todas</em> as contas de usuário.',
 	'MCHAT_GLOBALUSERSETTINGS_OVERWRITE_CONFIRM'	=> 'Confirme a substituição das configurações mChat para todos os usuários',
