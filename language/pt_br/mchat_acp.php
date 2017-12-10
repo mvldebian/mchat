@@ -6,7 +6,7 @@
  * @copyright (c) 2016 dmzx - http://www.dmzx-web.net
  * @copyright (c) 2016 kasimi - https://kasimi.net
  * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
- * Brazilian Portuguese translation by eunaumtenhoid (c) 2017 [ver 2.0.1] (https://github.com/phpBBTraducoes)
+ * Brazilian Portuguese translation by eunaumtenhoid (c) 2017 [ver 2.0.2] (https://github.com/phpBBTraducoes)
  */
 
 if (!defined('IN_PHPBB'))
@@ -92,8 +92,8 @@ $lang = array_merge($lang, array(
 	'MCHAT_MESSAGE_NUM_ARCHIVE'						=> 'Number of messages to display on the archive page',
 	'MCHAT_MESSAGE_NUM_ARCHIVE_EXPLAIN'				=> 'The maximum number of messages to show per page on the archive page.<br /><em>You are limited from 10 to 100. Default is 25.</em>',
 	'MCHAT_ARCHIVE_SORT'							=> 'Message sorting',
-	'MCHAT_ARCHIVE_SORT_TOP_BOTTOM'					=> 'Always sort messages top to bottom',
-	'MCHAT_ARCHIVE_SORT_BOTTOM_TOP'					=> 'Always sort messages bottom to top',
+	'MCHAT_ARCHIVE_SORT_TOP_BOTTOM'					=> 'Always sort messages oldest to newest',
+	'MCHAT_ARCHIVE_SORT_BOTTOM_TOP'					=> 'Always sort messages newest to oldest',
 	'MCHAT_ARCHIVE_SORT_USER'						=> 'Sort messages depending on the user’s <em>Location of new messages</em> preference',
 	'MCHAT_FLOOD_TIME'								=> 'Flood time',
 	'MCHAT_FLOOD_TIME_EXPLAIN'						=> 'The number of seconds a user must wait before posting another message in the chat.<br /><em>You are limited from 0 to 60 seconds. Default is 0. Set to 0 to disable.</em>',
@@ -115,6 +115,9 @@ $lang = array_merge($lang, array(
 	'MCHAT_OVERRIDE_MIN_POST_CHARS'					=> 'Override minimum characters limit',
 	'MCHAT_OVERRIDE_MIN_POST_CHARS_EXPLAIN'			=> 'Set to yes to override the forums minimum characters setting for chat messages',
 
+	'MCHAT_POSTS_AUTH_CHECK'						=> 'Require user permission',
+	'MCHAT_POSTS_AUTH_CHECK_EXPLAIN'				=> 'If set to yes, users who can not use mChat will not generate any post/login notification messages.',
+
 	'MCHAT_WHOIS_REFRESH'							=> 'Who is chatting refresh interval',
 	'MCHAT_WHOIS_REFRESH_EXPLAIN'					=> 'Number of seconds before who is chatting refreshes.<br /><em>You are limited from 10 to 300 seconds. Default is 60.</em>',
 	'MCHAT_SOUND'									=> 'Play sounds for new, edited and deleted messages',
@@ -123,8 +126,8 @@ $lang = array_merge($lang, array(
 	'MCHAT_PURGED'									=> 'All mChat messages have been successfully deleted',
 
 	// '%1$s' contains 'Retain posts' and 'Delete posts' respectively
-	'MCHAT_RETAIN_MESSAGES'							=> '%1$s e retem mensagens do mChat',
-	'MCHAT_DELETE_MESSAGES'							=> '%1$s e delete mensagens do mChat',
+	'MCHAT_RETAIN_MESSAGES'							=> '%1$s and retain mChat messages',
+	'MCHAT_DELETE_MESSAGES'							=> '%1$s and delete mChat messages',
 
 	// Error reporting
 	'TOO_LONG_MCHAT_BBCODE_DISALLOWED'				=> 'The disallowed bbcodes value is too long.',
