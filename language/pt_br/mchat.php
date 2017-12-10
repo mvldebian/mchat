@@ -37,7 +37,7 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, array(
 	'MCHAT_ADD'						=> 'Enviar',
 	'MCHAT_ARCHIVE'					=> 'Arquivo',
-	'MCHAT_ARCHIVE_PAGE'			=> 'mChat Arquivo',
+	'MCHAT_ARCHIVE_PAGE'			=> 'Arquivo do mChat',
 	'MCHAT_CUSTOM_PAGE'				=> 'mChat',
 	'MCHAT_BBCODES'					=> 'BBCodes',
 	'MCHAT_CUSTOM_BBCODES'			=> 'BBCodes personalizados',
