@@ -35,7 +35,7 @@ if (empty($lang) || !is_array($lang))
 // ’ » “ ” …
 
 $lang = array_merge($lang, array(
-	'MCHAT_PREFERENCES'				=> 'Preferências no mChat',
+	'MCHAT_PREFERENCES'				=> 'Preferências do mChat',
 	'MCHAT_NO_SETTINGS'				=> 'Você não está autorizado a personalizar as configurações.',
 
 	'MCHAT_INDEX'					=> 'Exibir na página inicial',
