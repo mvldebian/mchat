@@ -4,9 +4,9 @@
  *
  * @package phpBB Extension - mChat
  * @copyright (c) 2016 dmzx - http://www.dmzx-web.net
- * @copyright (c) 2016 kasimi
+ * @copyright (c) 2016 kasimi - https://kasimi.net
  * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
- * Brazilian Portuguese translation by eunaumtenhoid (c) 2017 [ver 2.0.2] (https://github.com/phpBBTraducoes)
+ * Brazilian Portuguese translation by eunaumtenhoid [2017][ver 2.1.2] (https://github.com/phpBBTraducoes)
  */
 
 if (!defined('IN_PHPBB'))
@@ -16,7 +16,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -34,7 +34,7 @@ if (empty($lang) || !is_array($lang))
 // Some characters for use
 // ’ » “ ” …
 
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	// Module titles
 	'ACP_CAT_MCHAT'					=> 'mChat',
 	'ACP_CAT_MCHAT_USER_CONFIG'		=> 'mChat em UCP',
@@ -47,4 +47,4 @@ $lang = array_merge($lang, array(
 	'LOG_MCHAT_TABLE_PURGED'		=> '<strong>mensagens do mChat limpas</strong><br />» %1$s',
 	'LOG_DELETED_MCHAT'				=> '<strong>mensagem do mChat deletada</strong><br />» %1$s',
 	'LOG_EDITED_MCHAT'				=> '<strong>mensagem do mChat editada</strong><br />» %1$s',
-));
+]);
